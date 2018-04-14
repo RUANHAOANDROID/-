@@ -1,0 +1,5 @@
+package com.ruanhao.abstractdocument.domain;
+
+public interface HasModel imp{
+
+}

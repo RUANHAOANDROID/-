@@ -1,0 +1,11 @@
+package com.ruanhao.abstractdocument.domain;
+
+public interface HasType extends Document {
+
+	  String PROPERTY = "type";
+
+	  default Optional<String> getType() {
+	    return Optional.ofNullable((String) get(PROPERTY));
+	  }
+
+}
