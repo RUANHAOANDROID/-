@@ -1,7 +1,0 @@
-package com.ruanhao.abstractdocument.domain;
-
-import com.ruanhao.abstractdocument.AbstractDocument;
-
-public class Car extends AbstractDocument implements HasModel, HasPrice, HasParts{
-
-}

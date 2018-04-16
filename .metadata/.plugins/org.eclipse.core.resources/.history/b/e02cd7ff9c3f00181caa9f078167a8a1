@@ -1,9 +1,0 @@
-package com.ruanhao.abstractdocument;
-/**
- * 文档接口
- * @author rh
- *
- */
-public interface Document {
- void put(String key ,Object value);
-}

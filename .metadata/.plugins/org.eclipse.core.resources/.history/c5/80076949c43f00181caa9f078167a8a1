@@ -1,7 +1,0 @@
-package com.ruanhao.abstractdocument.domain;
-
-import com.ruanhao.abstractdocument.Document;
-
-public interface HasPrice extends Document{
-
-}
